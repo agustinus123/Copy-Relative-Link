@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Copy Relative Link",
+    "version": "1.0",
+    "description": "Adds a context menu option to copy the relative link of a clicked URL.",
+    "permissions": ["contextMenus", "scripting", "activeTab"],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
